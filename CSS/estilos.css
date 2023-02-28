@@ -93,16 +93,17 @@ text-align: center
     text-align: center;
     font-size: 18px;
     background: #1C6EA4;
-background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
-background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
-background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
+    background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+    background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+    background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
     border-radius: 15%;
     margin: 10%;
     margin-bottom: 2%;
-  margin-top: 2%;
+    margin-top: 2%;
     padding: 8%;
     color: #959595;
     line-height: 40px;
+    overflow-wrap: break-word;
     
   }
 
