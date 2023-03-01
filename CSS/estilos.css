@@ -79,8 +79,8 @@
         }
 
   .intro {
-font-size: 25px;
-text-align: center
+    font-size: 25px;
+    text-align: center
 
   }
 
@@ -97,6 +97,7 @@ text-align: center
     background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
     background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
     border-radius: 15%;
+    box-shadow: 0 0 20px 10px black;
     margin: 10%;
     margin-bottom: 2%;
     margin-top: 2%;
@@ -119,14 +120,14 @@ text-align: center
     text-align: center;
     font-size: 18px;
     background: #1C6EA4;
-background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
-background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
-background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
+    background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+    background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+    background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
     border-radius: 20%;
-    box-shadow: 0 0 15px 10px black;
+    box-shadow: 0 0 20px 10px black;
     margin: 5%;
     margin-bottom: 2%;
-  margin-top: 2%;
+    margin-top: 2%;
     padding: 6%;
     padding-top: 1%;
     color: #959595;
@@ -146,10 +147,11 @@ background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
   text-align: center;
   font-size: 18px;
   background: #1C6EA4;
-background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
-background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
-background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
+  background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+  background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+  background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
   border-radius: 20%;
+  box-shadow: 0 0 20px 10px black;
   padding: 8%;
   padding-top: 1%;
   color: #959595;
