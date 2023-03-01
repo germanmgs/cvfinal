@@ -122,7 +122,8 @@ text-align: center
 background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
 background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
 background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
-    border-radius: 30%;
+    border-radius: 20%;
+    box-shadow: 0 0 15px 10px black;
     margin: 5%;
     margin-bottom: 2%;
   margin-top: 2%;
