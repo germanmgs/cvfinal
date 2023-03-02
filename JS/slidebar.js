@@ -25,8 +25,6 @@ function openNav() {
 
 /*boton para subir*/ 
 
-let mybutton = document.getElementById("myBtn");
-
 window.addEventListener("load", scrollFunction);
 
 function scrollFunction() {
