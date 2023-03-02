@@ -1,3 +1,5 @@
+/*menu deslizante*/
+
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -9,6 +11,9 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
+
+/*boton para mostrar correo*/
+
  function mostrarcorreo() {
   var x = document.getElementById("mail");
   if (x.style.display === "none") {
@@ -18,9 +23,9 @@ function openNav() {
   }
 }
 
+/*boton para subir*/ 
 
 let mybutton = document.getElementById("myBtn");
-
 
 window.onscroll = function() {scrollFunction()};
 
@@ -31,7 +36,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
 
 function topFunction() {
   document.body.scrollTop = 0; 
