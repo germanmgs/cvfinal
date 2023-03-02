@@ -234,7 +234,7 @@ color: #599bc7;
   body {
   background-image: url("../images/fondomovil.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;   
+  background-attachment: fixed;   
     }
 
 }
