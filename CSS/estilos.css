@@ -231,8 +231,10 @@ color: #599bc7;
     font-size: 11px;
       }
   
-  html { 
-  background: url(../images/fondomovil.jpg) no-repeat center center fixed; 
-      }
+  body {
+  background-image: url("../images/fondomovil.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
+    }
 
 }
