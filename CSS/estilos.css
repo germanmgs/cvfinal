@@ -44,6 +44,7 @@
   color: white;
   padding: 10px 15px;
   border: none;
+  border-radius: 20px; 
 }
 
 .openbtn:hover {
@@ -73,8 +74,8 @@
   color: #959595; 
   cursor: pointer; 
   padding: 15px; 
-  border-radius: 10px; 
-  font-size: 18px;
+  border-radius: 15px; 
+  font-size: 20px;
 }
 
 #myBtn:hover {
