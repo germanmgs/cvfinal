@@ -218,8 +218,16 @@ color: #599bc7;
     }
   
   ul {
-  margin-left: 2%;
-  margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+  
+  #firma {
+    font-size: 12px;
+}
+
+  #emailfirma{
+    font-size: 11px;
 }
 
 }
