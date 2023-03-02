@@ -83,6 +83,23 @@
   background-color: black; 
 }
 
+/* Boton de la informacion del email */
+
+#BtnInfo {
+font-weight: bolder;
+border: none; 
+outline: none; 
+background-color:black;
+color: #959595; 
+cursor: pointer; 
+padding: 7px; 
+border-radius: 10px; 
+font-size: 14px;
+}
+
+#BtnInfo:hover {
+  background-color:#144E75;
+}
 
 
 /* estilos de la pagina */
@@ -165,29 +182,18 @@ color: #144E75;
 text-shadow: 3px 3px 3px #000000;
 }
 
-/* Boton de la informacion del email */
-
-#BtnInfo {
-font-weight: bolder;
-border: none; 
-outline: none; 
-background-color:black;
-color: #959595; 
-cursor: pointer; 
-padding: 7px; 
-border-radius: 10px; 
-font-size: 14px;
+#firma {
+font-size: 16px;
+color: #d3d3d3;
 }
 
-#BtnInfo:hover {
-  background-color:#144E75;
+#emailfirma{
+font-size: 15px;
+color: #599bc7;
 }
-
 
 
 /* Para pantallas mas chicas */
-
-
 
 @media only screen and (max-width: 675px) {
   img {
