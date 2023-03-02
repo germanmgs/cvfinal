@@ -69,7 +69,7 @@
   z-index: 99; 
   border: none; 
   outline: none; 
-  background-color: black;
+  background-color: #444;
   color: #959595; 
   cursor: pointer; 
   padding: 15px; 
@@ -78,7 +78,7 @@
 }
 
 #myBtn:hover {
-  background-color: #444; 
+  background-color: black; 
 }
 
 
