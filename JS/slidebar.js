@@ -9,9 +9,14 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
-  function myFunction() {
-    document.getElementById("demo").innerHTML = "elijah.richardson@example.com";
+ function mostrarcorreo() {
+  var x = document.getElementById("mail");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
+}
 
 
 let mybutton = document.getElementById("myBtn");
