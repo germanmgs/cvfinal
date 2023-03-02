@@ -64,6 +64,7 @@
 /* Boton que me lleva arriba */
 
 #myBtn {
+  display: none;
   position: fixed; 
   bottom: 20px; 
   right: 15px; 
