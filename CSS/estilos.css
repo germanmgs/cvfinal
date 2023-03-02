@@ -216,5 +216,10 @@ color: #599bc7;
   .titulos  {
     font-size: 23px;
     }
+  
+  ul {
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 }
