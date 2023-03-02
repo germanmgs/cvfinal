@@ -5,7 +5,6 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "250px";
   }
   
-  
   function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
@@ -27,25 +26,16 @@ function openNav() {
 
 window.onscroll = function() {scrollFunction()};
 
- 
-function scrollFunction() {
-
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-
-    document.getElementById("myBtn").style.display = "block";
+ function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+      document.getElementById("myBtn").style.display = "block";
 
   } else {
-
-    document.getElementById("myBtn").style.display = "none";
-
-  }
-
+      document.getElementById("myBtn").style.display = "none";
+ }
 }
 
 function topFunction() {
-
   document.body.scrollTop = 0;
-
   document.documentElement.scrollTop = 0;
-
 }
