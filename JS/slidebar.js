@@ -25,16 +25,27 @@ function openNav() {
 
 /*boton para subir*/ 
 
-window.addEventListener("load", scrollFunction);
+window.onscroll = function() {scrollFunction()};
 
+ 
 function scrollFunction() {
-    if (document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
+
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+
+    document.getElementById("myBtn").style.display = "block";
+
+  } else {
+
+    document.getElementById("myBtn").style.display = "none";
+
+  }
+
 }
 
 function topFunction() {
-    document.documentElement.scrollTop = 0;
+
+  document.body.scrollTop = 0;
+
+  document.documentElement.scrollTop = 0;
+
 }
