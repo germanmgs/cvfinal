@@ -164,7 +164,7 @@ text-shadow: 3px 3px 3px #000000;
 }
 
 
-button {
+#BtnInfo {
 font-weight: bolder;
 border: none; 
 outline: none; 
@@ -176,7 +176,7 @@ border-radius: 10px;
 font-size: 18px;
 }
 
-button:hover {
+#BtnInfo:hover {
   background-color:#144E75;
 }
 
