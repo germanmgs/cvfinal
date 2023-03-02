@@ -211,7 +211,7 @@ color: #599bc7;
     margin-top: 1%;
     line-height: 20px; 
     margin-bottom: 7%;
-  }
+   }
 
   .titulos  {
     font-size: 23px;
@@ -220,14 +220,18 @@ color: #599bc7;
   ul {
     margin-left: 1%;
     margin-right: 2%;
-}
+     }
   
   #firma {
     font-size: 12px;
-}
+      }
 
   #emailfirma{
     font-size: 11px;
-}
+      }
+  
+  html { 
+  background: url(../images/fondomovil.jpg) no-repeat center center fixed; 
+      }
 
 }
