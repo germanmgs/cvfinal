@@ -27,7 +27,22 @@
         <a href="https://www.facebook.com/">Facebook <i class="fa-brands fa-facebook"></i> </a>
         <a href="https://www.twitter.com/">Twitter <i class="fa-brands fa-square-twitter"></i> </a>
         <a href="https://www.instagram.com/">Instagram <i class="fa-brands fa-instagram"></i> </a>
+        <!--formulario\-->
+        <button class="open-button" onclick="openForm()">Si queres dejame tu correo y te hablo a la brevedad</button>
+        <div class="form-popup" id="myForm">
+          <form action="" class="form-container" method="get">
+            <label for="correo electronico"> <b id="datosvisitante">correo electronico</b></label>
+            <input type="email" placeholder="Ingresá tu correo electronico" name="correoelectronico" required>
+            <label for="nombrevisitante"><b id="datosvisitante">Ingresá tu nombre</b></label>
+            <input type="text" placeholder="Ingresá tu nombre" name="nombredelvisitante" required>
+            <label for="apellidovisitante"><b id="datosvisitante">Ingresá tu apellido</b></label>
+            <input type="text" placeholder="Ingresá tu apellido" name="apellidodelvisitante" required>
+            <button type="enviar" class="btn">enviar</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">cancelar</button>
+           </form>
+         </div>
       </div>
+
       <div id="main">
         <button class="openbtn" onclick="openNav()">&#9776; Más sobre mi</button>
       </div>
