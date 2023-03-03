@@ -61,6 +61,81 @@
   .sidebar a {font-size: 18px;}
 }
 
+
+/* El formulario */
+
+.open-button {
+  background-color: #144E75;
+  color: #818181;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.open-button:hover {
+  color: #f1f1f1;
+}
+
+.form-popup {
+  display: none;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #000000;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+  background: -webkit-linear-gradient(top, #1C6EA4 0%, #000000 0%, #144E75 100%);
+  background: linear-gradient(to bottom, #1C6EA4 0%, #000000 0%, #144E75 100%);
+}
+
+.form-container input[type=text],.form-container input[type=email] {
+  width: 100%;
+  padding: 3px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #ffffff;
+}
+
+.form-container input[type=text]:focus,.form-container input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+#datosvisitante {
+  color: #818181;
+}
+
+.form-container .btn {
+  background-color: #144E75;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 10px; 
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: rgb(122, 0, 0);
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
 /* Boton que me lleva arriba */
 
 #myBtn {
