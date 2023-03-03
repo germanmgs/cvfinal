@@ -66,7 +66,7 @@
 
 .open-button {
   background-color: #144E75;
-  color: #818181;
+  color: #a7a7a7;
   border: none;
   cursor: pointer;
   text-align: left;
@@ -77,6 +77,7 @@
 
 .open-button:hover {
   color: #f1f1f1;
+  background-color: #0162a3;
 }
 
 .form-popup {
