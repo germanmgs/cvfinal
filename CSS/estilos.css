@@ -101,14 +101,16 @@
   padding: 3px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #ffffff;
+  background: #05041bff;
   width: 218px;
   height: 25px;
+  color: #1d9a9a;
 }
 
 .form-container input[type=text]:focus,.form-container input[type=email]:focus {
-  background-color: #ddd;
+  background-color: #144E75;
   outline: none;
+  color: white
 }
 
 #datosvisitante {
