@@ -62,7 +62,7 @@
 }
 
 
-/* El formulario */
+/* Formulario de contacto */
 
 .open-button {
   background-color: #144E75;
@@ -116,7 +116,7 @@
 .form-container .btn {
   background-color: #144E75;
   color: white;
-  padding: 16px 20px;
+  padding: 5px 5px;
   border-radius: 10px; 
   font-size: 20px;
   cursor: pointer;
