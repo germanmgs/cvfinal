@@ -102,6 +102,8 @@
   margin: 5px 0 22px 0;
   border: none;
   background: #ffffff;
+  width: 218px;
+  height: 25px;
 }
 
 .form-container input[type=text]:focus,.form-container input[type=email]:focus {
